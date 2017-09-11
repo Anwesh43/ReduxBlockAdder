@@ -2,10 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { AppContainer } from 'react-hot-loader'
 import App from './app'
-
+import MainApp from './MainApp'
 ReactDOM.render(
   <AppContainer>
-    <App/>
+    <MainApp/>
   </AppContainer>,
   document.getElementById('app')
 );
